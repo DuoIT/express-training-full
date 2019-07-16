@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SOCKET-DEMO</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script>
+        const socket = io('http://localhost:3000');
+    //     console.log(socket);
+    //    // let clients =[];
+    //     socket.emit('message','hello Duong');
+    //     socket.on('client_connect', function(data){
+            
+    //         //clients.push(data);
+    //         renderHTML(data);
+    //     })
+    //     socket.on('client_disconnect', function(data){
+    //         renderHTML(data);
+    //     })
+    //     function renderHTML(clients){
+            
+    //         let html = '';
+    //         clients.forEach(client =>{
+    //             html += `<li> ${client} </li>`;
+    //         });
+    //         document.getElementsByClassName('client')[0].innerHTML = <ul> ${html} </ul>;
+    //     }
+
+        
+
+    </script>
+</head>
+<body>
+    <h1> Client Connect</h1>
+    <div style ="position: absolute; left: 0; bottom: 0">
+        <div>
+                <input name ="input-chat" style="width: 100%"/>
+        </div>
+        
+    </div>
+</body>
+</html>
